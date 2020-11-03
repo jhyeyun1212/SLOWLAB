@@ -49,3 +49,54 @@
 
     </body>
 </html>
+<!DOCTYPE html>
+<html lang="en-KR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="main" />
+        <link rel="shortcut icon" href="#">
+    <!--   <link rel="stylesheet" media="screen" href="css/reset.css">  -->
+        <link rel="stylesheet" media="screen" href="css/style.css">
+        <title>Slow Futures Lab</title>
+    </head>
+
+    <body class="main_body">
+        <header> 
+            <div class="main-header-wrap">
+                <h1 class="main_h1"><a href="index.php"><img src="img/logo_w.png" alt="logoimage"/></a></h1>    
+                <div class="top-menu">
+                    <!--input type="text" placeholder="Search"-->
+                    <!--div class="sns_insta"></div-->
+                    <nav class="top-menu-nav main-menu-nav"> 
+                        <ul>
+                            <li><a class="main" href="articles/a06.html">Articles</a></li>
+                            <li><a class="main" href="works.html">Works</a></li>
+                            <li><a class="main" href="about.html">About</a></li>
+                        </ul> 
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <div style="width: 100%;overflow: hidden;"> 
+            <div style="background:rgba(0,0,0,0.4);position: absolute;width: 100%;height: 100%; position: absolute;z-index: 999;"></div>       
+            <video id="video_web" autoplay="autoplay" controls muted >
+                <source src="video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> 
+            
+            <video id="video_mobile" autoplay="autoplay" controls muted >
+                <source src="video/mobile.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> 
+            <!-- <img src="img/bg_mobile.png" alt="mobile-bg" class="img_hidden"> -->
+        </div>
+        
+        
+        <!-- <div class="video-wrap">
+            <iframe id="video" width="auto" height="100%" src="video/mainimage.mp4" type="video/mp4" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+
+    </body>
+</html>
